@@ -15,7 +15,7 @@ interface CartProps {
 
 const Cart = ({ cartOpen, handleSetCartOpen, cartItems, handleRemoveFromCart }: CartProps) => {
     return (
-        <div className={cn(" transform translate-x-[1000px] transition-all ease-in-out duration-400 md:w-2/5 w-full h-screen fixed top-0 right-0 bg-white z-50 p-5 border-l-[1px] border-l-gray-300", {
+        <div className={cn(" transform translate-x-[1000px] transition-all ease-in-out duration-400 lg:w-2/4 md:w-3/4 w-full h-screen fixed top-0 right-0 bg-white z-50 p-5 border-l-[1px] border-l-gray-300", {
             "transform translate-x-0": cartOpen
         })}>
 
