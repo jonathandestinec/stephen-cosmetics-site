@@ -5,7 +5,7 @@ import NewsletterPopup from './news-letter-popup'
 const NewsLetterAd = () => {
     return (
         <div>
-            <section className=' w-full py-10 relative'>
+            <section id='newsletter' className=' w-full py-10 relative'>
                 <Image src={"/assets/other/adBanner.jpg"} width={1000} height={1000} alt='News Letter' className=' ml-auto mr-auto md:rounded-3xl rounded-md filter brightness-[20%] blur-md' />
 
                 {/* Add a text that says Subscribe To Our Newsletter, and a button that says Subscrbe. The buttons should be absolute and centered on the parent */}

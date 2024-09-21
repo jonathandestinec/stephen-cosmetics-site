@@ -16,7 +16,7 @@ const CategoryCard = ({ previewImage, category }: CategoryCardProps) => {
     }
 
     return (
-        <div className=' relative lg:w-3/5 md:w-[40%] w-2/5 lg:h-80 md:h-48 h-20 overflow-hidden lg:rounded-3xl md:rounded-2xl rounded-xl bg-slate-400 cursor-pointer ml-auto md:m-0 mr-auto' onClick={() => {
+        <div className=' relative lg:w-1/5 md:w-[40%] w-2/5 lg:h-80 md:h-48 h-20 overflow-hidden lg:rounded-3xl md:rounded-2xl rounded-xl bg-slate-400 cursor-pointer ml-auto md:m-0 mr-auto' onClick={() => {
             handleNavigateCategory()
         }}>
             <Image src={previewImage} width={300} height={300} alt={category} className=' z-0 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 blur-sm' />

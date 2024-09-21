@@ -51,7 +51,7 @@ const TopNav = ({ cartItems, cartOpen, handleUpdateCartItems, handleRemoveFromCa
                     </div>
 
                     <div className=' flex items-center justify-center border-l-[1px] border-gray-600 w-max py-2 px-5 gap-2 scale-90'>
-                        <a href="/newsletter" className='text-white flex items-center justify-center gap-2'>
+                        <a href="/#newsletter" className='text-white flex items-center justify-center gap-2'>
                             <i className="fi fi-rr-envelope text-white flex items-center justify-center"></i>
                             <span className=' text-sm'>NEWSLETTER</span>
                         </a>
@@ -78,7 +78,7 @@ const TopNav = ({ cartItems, cartOpen, handleUpdateCartItems, handleRemoveFromCa
                 </div>
 
                 <div className=' w-full items-center justify-start'>
-                    <h2 className=' text-center font-medium md:text-xl text-base underline underline-offset-2 m-0 w-max ml-8'>
+                    <h2 className=' text-center font-medium md:text-xl text-base underline underline-offset-2 m-0 w-max md:mr-auto md:ml-auto ml-8'>
                         ADS/OFFERS HERE
                     </h2>
                 </div>
@@ -98,7 +98,7 @@ const TopNav = ({ cartItems, cartOpen, handleUpdateCartItems, handleRemoveFromCa
 
             {/* Sections Link */}
             <div className=' w-full md:scale-100 scale-90 overflow-x-scroll ml-auto mr-auto border-y-[1px] border-slate-300 flex'>
-                <div className=' md:flex block items-center justify-center md:pl-10 md:pr-10 p-0 gap-5 whitespace-nowrap w-max'>
+                <div className=' md:flex block items-center justify-center md:pl-10 md:pr-10 p-0 gap-5 whitespace-nowrap w-max ml-auto mr-auto'>
                     {
                         useFilter && (
                             <SectionsLink mode={mode} />

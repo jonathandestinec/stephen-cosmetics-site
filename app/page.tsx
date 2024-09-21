@@ -46,7 +46,7 @@ const Page = () => {
 
         {/* Different Products */}
         <div className=' container mx-auto px-4 py-8 w-4/5 ml-auto mr-auto'>
-          <div className=' grid grid-cols-1 md:grid-cols-4 gap-6 '>
+          <div className=' grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6 '>
             {newProducts.slice(0, 4).map((product, index) => (
               <ProductCard key={index} details={product} handleUpdateCartItems={handleUpdateCartItems} />
             ))}
@@ -75,7 +75,7 @@ const Page = () => {
 
         {/* Different Products */}
         <div className='container mx-auto px-4 py-8 w-4/5 ml-auto mr-auto'>
-          <div className='  grid grid-cols-1 md:grid-cols-4 gap-6 '>
+          <div className='  grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6 '>
             {newProducts.map((product, index) => (
               <ProductCard key={index} details={product} handleUpdateCartItems={handleUpdateCartItems} />
             ))}
